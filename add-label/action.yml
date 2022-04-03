@@ -5,8 +5,7 @@ inputs:
     description: The labels' name to be added.
     required: true
 runs:
-  using: "docker"
-  image: "Dockerfile"
+  using: "composite"
 branding:
   icon: bookmark
   color: red
