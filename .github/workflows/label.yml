@@ -5,10 +5,10 @@ on:
     types: opened
 
 jobs:
-  add_label:
+  label:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ./
+      - uses: actions/checkout@v1
+      - uses: ./@master
         with:
           labels: bug
