@@ -1,0 +1,12 @@
+name: Add Labels
+description: Add labels to an issue.
+inputs:
+  labels:
+    description: The labels' name to be added.
+    required: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: bookmark
+  color: red
