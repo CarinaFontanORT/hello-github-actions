@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./action-a/add-label
+      - uses: ./action-a
         with:
-          labels: bug
+          labels: "bug"
